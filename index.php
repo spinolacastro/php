@@ -2,7 +2,7 @@
 // This is only an example, the numbers below will
 // differ depending on your system
 
-for ($i=1; $i<100; $i++) {
+for ($i=1; $i<1000; $i++) {
 	//echo "used memory is " . memory_get_usage() . "<br/>";
 	$a = loadmem($i); 
 	//echo "used memory after allocating ".$i."m is " . memory_get_usage() . "<br/>"; // 57960
